@@ -1,0 +1,21 @@
+
+
+.counrties{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.body{
+    background-color: aquamarine;
+}
+.country-class{
+    border: 3px solid gray;
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+.country-class img{
+    width: 200px;
+}
